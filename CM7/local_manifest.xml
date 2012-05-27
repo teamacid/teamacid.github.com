@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-    TeamAcid's CM7 local_manifest.xml
-    =================================
-    Please read: http://forum.xda-developers.com/wiki/Samsung_Galaxy_S/SGH-T959V/Building_From_Source
--->
 <manifest>
     <project path="device/samsung/galaxys4gmtd" name="teamacid/android_device_samsung_galaxys4gmtd" />
     <project path="vendor/cyanogen" name="teamacid/android_vendor_cyanogen" />
@@ -11,5 +6,9 @@
     <project path="kernel/galaxys4gmtd" name="teamacid/android_kernel_galaxys4gmtd" />
 </manifest>
 <!--
+TeamAcid's CM7 local_manifest.xml
+=================================
+Please read: http://forum.xda-developers.com/wiki/Samsung_Galaxy_S/SGH-T959V/Building_From_Source
+
 vi: ts=4:sw=4:et:noai
 -->
