@@ -4,7 +4,7 @@
     <project path="vendor/cm" name="teamacid/android_vendor_cm" />
     <project path="apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
     <project path="device/samsung/galaxys4gmtd" name="teamacid/android_device_samsung_galaxys4gmtd" />
-    <project path="vendor/samsung" name="bhundven/proprietary_vendor_samsung" />
+    <project path="vendor/samsung" name="jt1134/proprietary_vendor_samsung" />
     <project path="kernel/samsung/galaxys4gmtd" name="teamacid/android_kernel_galaxys4gmtd" />
 </manifest>
 <!--
