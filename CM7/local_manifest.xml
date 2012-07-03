@@ -6,6 +6,7 @@
     <project path="build" name="teamacid/android_build">
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
+    <project path="device/motorola/sunfire/sunfire.mk" name="cybik/Sunfire" />
     <project path="device/samsung/galaxys4gmtd" name="teamacid/android_device_samsung_galaxys4gmtd" />
     <project path="vendor/samsung" name="teamacid/proprietary_vendor_samsung" />
     <project path="kernel/galaxys4gmtd" name="teamacid/android_kernel_galaxys4gmtd" />
