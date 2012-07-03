@@ -9,7 +9,7 @@
     <project path="device/motorola/sunfire" name="CyanogenMod/android_device_motorola_sunfire" />
     <project path="device/samsung/galaxys4gmtd" name="teamacid/android_device_samsung_galaxys4gmtd" />
     <project path="vendor/samsung" name="teamacid/proprietary_vendor_samsung" />
-    <project path="kernel/galaxys4gmtd" name="teamacid/android_kernel_galaxys4gmtd" />
+    <project path="kernel/samsung/galaxys4gmtd" name="teamacid/android_kernel_galaxys4gmtd" />
     <project path="external/aroma" name="teamacid/android_external_aroma" />
 </manifest>
 <!--
