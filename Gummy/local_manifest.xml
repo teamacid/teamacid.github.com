@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remove-project name="vendor_Gummy" />
+	<remove-project name="vendor_samsung" />
+	<project path="vendor/Gummy" name="fbis251/vendor_Gummy" remote="github" revision="master" />
+	<project path="vendor/samsung" name="teamacid/proprietary_vendor_samsung" revision="ics" />
+	<project path="device/samsung/galaxys4gmtd" name="fbis251/android_device_samsung_galaxys4gmtd" remote="github" revision="master" />
+	<project path="kernel/samsung/galaxys4gmtd" name="teamacid/android_kernel_galaxys4gmtd" remote="github" revision="ics" />
+</manifest>
+<!--
+teamacid's Gummy local_manifest.xml
+=================================
+vi: ts=4:sw=4:et:noai
+-->
