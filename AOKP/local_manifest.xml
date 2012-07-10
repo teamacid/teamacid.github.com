@@ -5,7 +5,7 @@
     <remove-project name="AOKP/vendor_samsung" />
     <remove-project name="AOKP/packages_apps_Settings" />
     <remove-project name="CyanogenMod/android_bootable_recovery" />
-	<!-- Projects we're replaceing them with -->
+	<!-- Projects we're replacing them with -->
     <project path="vendor/aokp" name="fbis251/vendor_aokp" remote="gh" revision="ics" />
 	<project path="vendor/samsung" name="teamacid/proprietary_vendor_samsung" remote="gh" revision="ics" />
     <project path="packages/apps/Settings" name="fbis251/packages_apps_Settings" remote="gh" revision="ics" />
