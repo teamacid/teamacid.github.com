@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Projects we're removing -->
-    <remove-project name="AOKP/vendor_aokp" />
+    <remove-project name="AOKP/vendor_aokp_ics" />
     <remove-project name="AOKP/vendor_samsung" />
     <remove-project name="AOKP/packages_apps_Settings" />
     <remove-project name="CyanogenMod/android_bootable_recovery" />
