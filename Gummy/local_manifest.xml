@@ -3,9 +3,11 @@
     <!-- Projects we're removing -->
     <remove-project name="vendor_Gummy" />
     <remove-project name="vendor_samsung" />
+    <remove-project name="android_bootable_recovery" />
     <!-- Projects we're replacing them with -->
     <project path="vendor/Gummy" name="fbis251/vendor_Gummy" remote="github" revision="master" />
     <project path="vendor/samsung" name="teamacid/proprietary_vendor_samsung" remote="github" revision="ics" />
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-9.0.0" />
     <!-- Projects we're adding -->
     <project path="device/samsung/galaxys4gmtd" name="fbis251/android_device_samsung_galaxys4gmtd" remote="github" revision="master" />
     <project path="kernel/samsung/galaxys4gmtd" name="teamacid/android_kernel_galaxys4gmtd" remote="github" revision="ics" />
