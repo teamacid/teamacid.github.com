@@ -3,13 +3,11 @@
     <!-- Projects we're removing -->
     <remove-project name="AOKP/vendor_aokp_ics" />
     <remove-project name="AOKP/vendor_samsung" />
-    <remove-project name="AOKP/packages_apps_Settings" />
     <remove-project name="CyanogenMod/android_bootable_recovery" />
     <!-- Projects we're replacing them with -->
     <project path="vendor/aokp" name="fbis251/vendor_aokp" remote="gh" revision="ics" />
     <project path="vendor/samsung" name="teamacid/proprietary_vendor_samsung" remote="gh" revision="ics" />
-    <project path="packages/apps/Settings" name="fbis251/packages_apps_Settings" remote="gh" revision="ics" />
-    <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="gh" revision="master" />
+    <project path="bootable/recovery" name="teamacid/Team-Win-Recovery-Project" remote="gh" revision="master" />
     <!-- Projects we're adding -->
     <project path="kernel/samsung/galaxys4gmtd" name="teamacid/android_kernel_galaxys4gmtd" remote="gh" revision="ics" />
     <project path="device/samsung/galaxys4gmtd" name="fbis251/android_device_samsung_galaxys4gmtd" remote="gh" revision="ics" />
