@@ -4,6 +4,16 @@
     <remove-project name="AOKP/vendor_aokp_ics" />
     <remove-project name="AOKP/vendor_samsung" />
     <remove-project name="CyanogenMod/android_bootable_recovery" />
+    <remove-project name="AOKP/android_hardware_libhardware" />
+    <remove-project name="AOKP/android_hardware_msm7k" />
+    <remove-project name="AOKP/android_hardware_qcom_media" />
+
+    <!-- Temporary projects until the AOKP team gets their ICS repos set up -->
+    <project path="hardware/libhardware" name="fbis251/hardware_libhardware" remote="gh" revision="ics" />
+    <project path="hardware/msm7k" name="fbis251/hardware_msm7k" remote="gh" revision="ics" />
+    <project path="hardware/qcom/media" name="fbis251/hardware_qcom_media" remote="gh" revision="ics" />
+
+
     <!-- Projects we're replacing them with -->
     <project path="vendor/aokp" name="fbis251/vendor_aokp" remote="gh" revision="ics" />
     <project path="vendor/samsung" name="teamacid/proprietary_vendor_samsung" remote="gh" revision="ics" />
@@ -11,6 +21,7 @@
     <!-- Projects we're adding -->
     <project path="kernel/samsung/galaxys4gmtd" name="teamacid/android_kernel_galaxys4gmtd" remote="gh" revision="ics" />
     <project path="device/samsung/galaxys4gmtd" name="fbis251/android_device_samsung_galaxys4gmtd" remote="gh" revision="ics" />
+
 </manifest>
 <!--
 teamacid's AOKP local_manifest.xml
