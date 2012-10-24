@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remove-project name="CyanogenMod/android_vendor_cyanogen" />
-    <remove-project name="CyanogenMod/android_build" />
     <project path="vendor/cyanogen" name="teamacid/android_vendor_cyanogen" revision="gingerbread" />
-    <project path="build" name="teamacid/android_build" revision="gingerbread">
-        <copyfile src="core/root.mk" dest="Makefile" />
-    </project>
-    <project path="device/motorola/sunfire" name="CyanogenMod/android_device_motorola_sunfire" revision="gingerbread" />
     <project path="device/samsung/galaxys4gmtd" name="teamacid/android_device_samsung_galaxys4gmtd" revision="gingerbread" />
     <project path="vendor/samsung" name="teamacid/proprietary_vendor_samsung" revision="gingerbread" />
     <project path="kernel/samsung/galaxys4gmtd" name="teamacid/android_kernel_galaxys4gmtd" revision="gingerbread" />
-    <project path="external/aroma" name="teamacid/android_external_aroma" revision="gingerbread" />
 </manifest>
 <!--
 TeamAcid's CM7 local_manifest.xml
