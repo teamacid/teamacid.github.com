@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remove-project name="CyanogenMod/android_bootable_recovery" />
+    <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.5" />
+</manifest>
+<!--
+teamacid's TWRP local_manifest.xml
+======================================
+vi: ts=4:sw=4:et:noai
+-->
