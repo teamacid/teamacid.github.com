@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Use JustArchi's Linaro compiler branches -->
+    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="JustArchi/Linaro" revision="4.7-androideabi" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="JustArchi/Linaro" revision="4.8-androideabi" />
+</manifest>
+<!--
+teamacid's CM11-TWRP linaro.xml
+======================================
+vi: ts=4:sw=4:et:noai
+-->
