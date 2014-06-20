@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Remove old EABI versions to save on download time -->
+    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
+
     <!-- Use JustArchi's Linaro compiler branches -->
+    <!-- Android EABI -->
     <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="JustArchi/Linaro" revision="4.7-androideabi" />
     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="JustArchi/Linaro" revision="4.8-androideabi" />
+
+    <!-- ARM EABI -->
+    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="JustArchi/Linaro" revision="4.7-eabi" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="JustArchi/Linaro" revision="4.8-eabi" />
 </manifest>
 <!--
 teamacid's CM11-TWRP linaro.xml
