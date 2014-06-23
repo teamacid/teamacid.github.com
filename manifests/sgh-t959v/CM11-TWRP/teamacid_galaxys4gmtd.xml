@@ -4,6 +4,10 @@
     <remove-project name="CyanogenMod/android_bootable_recovery" />
     <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" />
 
+    <!-- Use a custom system/core repo while using TWRP to prevent build errors -->
+    <remove-project name="CyanogenMod/android_system_core" />
+    <project path="system/core" name="teamacid/android_system_core" revision="cm-11.0" />
+
     <!-- Use Cyanogenmod's Aries common and Samsung hardware files -->
     <project name="CyanogenMod/android_device_samsung_aries-common" path="device/samsung/aries-common" />
     <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
